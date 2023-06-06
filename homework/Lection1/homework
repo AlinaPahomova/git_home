@@ -28,6 +28,16 @@ let Ddiscr1 = b1 ** 2 - 4 * a1 * c1;
 let x1 = (-b1 + Math.sqrt(Ddiscr1))/2*a1;
 console.log(x1);
 
+/x2 - 4x -5 = 0
+const a2 = 1;
+const b2 = -4;
+const c2 = -5;
+let Ddiscr2 = b2 ** 2 - 4 * a2 * c2;
+let x2 = (-b2 + Math.sqrt(Ddiscr2))/2*a2;
+console.log(x2);
+let x3 = (-b2 - Math.sqrt(Ddiscr2))/2*a2;
+console.log(x3);
+
 
 //Task3
 let n = 5;
